@@ -1,0 +1,23 @@
+title: mots de maux
+description: >- # ignore newlines until "baseurl:"
+  Parfois j'ai des mots à dire. Parfois j'ai des maux à vivre.
+  Parfois ces mots sont entrelacés.
+  Parfois je dois les exprimer. Ici ils se trouveront.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.mots-de-maux.com/"
+
+# Markdown
+markdown: kramdown
+input: GMF
+hard_wrap: false
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - rake
+
+header_pages:
+  - about.md
+
+footer: '<p>ne me suivez pas car je ne sais où je vais</p>'
